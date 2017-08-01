@@ -1,4 +1,4 @@
-const SECRET_KEY = require('./config/secret');
+const SECRET_KEY = require('./config/secret')
 
 exports.register = function (plugin, options, next) {
 
@@ -15,23 +15,23 @@ exports.register = function (plugin, options, next) {
           id: 1,
           name: 'Jon Snow'
         }
-      ];
+      ]
 
       if (users.find(u => u.id === decoded.id)) {
-        return callback(null, true);
+        return callback(null, true)
       }
       else {
-        return callback(null, false);
+        return callback(null, false)
       }
     }
-  });
+  })
 
   // Uncomment this to apply default auth to all routes
   //plugin.auth.default('jwt');
 
-  next();
-};
+  next()
+}
 
 exports.register.attributes = {
   name: 'auth'
-};
+}

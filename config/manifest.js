@@ -1,5 +1,5 @@
 const envKey = key => {
-  const env = process.env.NODE_ENV || 'development';
+  const env = process.env.NODE_ENV || 'development'
 
   const configuration = {
     development: {
@@ -15,10 +15,10 @@ const envKey = key => {
       host: process.env.HOST,
       port: process.env.PORT
     }
-  };
+  }
 
-  return configuration[env][key];
-};
+  return configuration[env][key]
+}
 
 const manifest = {
   connections: [
@@ -58,6 +58,6 @@ const manifest = {
       }
     }
   ]
-};
+}
 
-module.exports = manifest;
+module.exports = manifest

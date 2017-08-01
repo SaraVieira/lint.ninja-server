@@ -1,1 +1,1 @@
-module.exports = 'NeverShareYourSecret';
+module.exports = 'NeverShareYourSecret'

@@ -18,7 +18,7 @@ if (!process.env.PRODUCTION) {
 
 const options = {
   info: {
-    title: 'Test API Documentation',
+    title: 'wutthelintAPI',
     version: Pack.version
   }
 }
@@ -36,7 +36,8 @@ Glue.compose(manifest, { relativeTo: __dirname }, (err, server) => {
         options: options
       }
     ],
-    err => { // eslint-disable-line
+    err => {
+      // eslint-disable-line
       server.start(err => {
         if (err) {
           console.log(err)

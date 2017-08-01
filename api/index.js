@@ -66,7 +66,7 @@ exports.register = (plugin, options, next) => {
       config: {
         handler: Linters.category.handler,
         description: 'Get all linters in a category',
-        notes: 'Returns an array with all linters available in that cetgory',
+        notes: 'Returns an array with all linters available in that category',
         tags: ['api'],
         validate: {
           params: {
@@ -81,5 +81,5 @@ exports.register = (plugin, options, next) => {
 }
 
 exports.register.attributes = {
-  name: 'api'
+  name: 'wutthelintAPI'
 }

@@ -36,8 +36,8 @@ Glue.compose(manifest, { relativeTo: __dirname }, (err, server) => {
         options: options
       }
     ],
+    // eslint-disable-next-line
     err => {
-      // eslint-disable-line
       server.start(err => {
         if (err) {
           console.log(err)

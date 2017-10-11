@@ -70,6 +70,23 @@ module.exports.addLinter = {
   }
 }
 
+module.exports.allCategories = {
+  handler: function(request, reply) {
+    const allCategories = linters.reduce((end, linter) => {
+      if (end.indexOf(linter.category) === -1) {
+        end.push(linter.category)
+      }
+
+      return end
+    }, [])
+
+    return reply({
+      result: allCategories,
+      length: allCategories.length
+    })
+  }
+}
+
 module.exports.category = {
   handler: function(request, reply) {
     const allCategories = linters.reduce((end, linter) => {

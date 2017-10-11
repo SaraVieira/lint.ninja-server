@@ -627,14 +627,21 @@ module.exports = [
     "description": "Standard eslint rules for all Synacor javascript projects",
     "creator": "synacor",
     "category": "eslint-config",
-    "url": "https://github.com/synacor/eslint-config-synacor"
+    "link": "https://github.com/synacor/eslint-config-synacor"
   },
   {
     "name": "Swift Lint",
     "description": "A tool to enforce Swift style and conventions",
     "creator": "Realm",
     "category": "swift",
-    "url": "https://github.com/realm/SwiftLint"
+    "link": "https://github.com/realm/SwiftLint"
+  },
+  {
+    "name": "Tailor",
+    "description": "Cross-platform static analyzer and linter for Swift.",
+    "creator": "Sleekbyte",
+    "category": "swift",
+    "link": "https://github.com/sleekbyte/tailor"
   },
   {
     "name": "textlint",

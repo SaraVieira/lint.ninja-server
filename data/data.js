@@ -642,5 +642,12 @@ module.exports = [
     "creator": "Sleekbyte",
     "category": "swift",
     "link": "https://github.com/sleekbyte/tailor"
+  },
+  {
+    "name": "textlint",
+    "link": "https://github.com/textlint/textlint",
+    "description": "The pluggable linting tool for text and Markdown. It is similar to ESLint, but textlint is for natural language",
+    "creator": "azu",
+    "category": "markdown"
   }
 ]

@@ -649,5 +649,12 @@ module.exports = [
     "description": "The pluggable linting tool for text and Markdown. It is similar to ESLint, but textlint is for natural language",
     "creator": "azu",
     "category": "markdown"
+  },
+  {
+    "name": "SQLint",
+    "category": "SQL",
+    "link": "https://github.com/purcell/sqlint",
+    "description": "A simple command-line linter which reads your SQL files and reports any syntax errors or warnings it finds. Editor integrations with vim, emacs, and Sublime.",
+    "creator": "Steve Purcell and Kieran Trezona-le Comte"
   }
 ]

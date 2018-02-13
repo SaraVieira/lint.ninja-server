@@ -19,7 +19,7 @@ if (!process.env.PRODUCTION) {
 const options = {
   info: {
     title: 'wutthelintAPI',
-    version: Pack.version
+    version: Pack.version,
   }
 }
 

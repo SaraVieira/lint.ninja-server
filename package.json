@@ -9,9 +9,9 @@
   "main": "server.js",
   "scripts": {
     "test:unit": "lab -v",
-    "build": "npm-run-all lint test",
-    "test": "npm-run-all lint test:unit",
-    "start": "npm-run-all --parallel lint start:server",
+    "build": "npm-run-all lint",
+    "test": "npm-run-all lint",
+    "start": "NODE_ENV=production node server.js",
     "start:server": "nodemon server.js",
     "lint": "eslint . --ext .js"
   },
@@ -36,10 +36,10 @@
     "hapi-swagger": "^7.7.0",
     "inert": "^4.2.1",
     "joi": "^10.6.0",
-    "vision": "^4.1.1"
+    "vision": "^4.1.1",
+    "blipp": "^2.3.0"
   },
   "devDependencies": {
-    "blipp": "^2.3.0",
     "code": "^4.1.0",
     "eslint": "^4.1.1",
     "eslint-plugin-import": "^2.6.1",

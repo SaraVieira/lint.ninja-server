@@ -15,15 +15,16 @@ module.exports.all = {
 module.exports.search = {
   handler: function(request, reply) {
     const queryLinters = linters.filter(linter => {
-      const name = linter.name
-      const creator = linter.creator
-      const description = linter.description
-      const category = linter.category
+      const name = linter.name.toLowerCase()
+      const creator = linter.creator.toLowerCase()
+      const description = linter.description.toLowerCase()
+      const category = linter.category.toLowerCase()
+      const query = request.params.query.toLowerCase()
       if (
-        (name && name.includes(request.params.query)) ||
-        (creator && creator.includes(request.params.query)) ||
-        (description && description.includes(request.params.query)) ||
-        (category && category.includes(request.params.query))
+        (name && name.includes(query)) ||
+        (creator && creator.includes(query)) ||
+        (description && description.includes(query)) ||
+        (category && category.includes(query))
       ) {
         return true
       }

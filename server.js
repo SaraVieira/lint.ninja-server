@@ -18,7 +18,7 @@ if (!process.env.PRODUCTION) {
 
 const options = {
   info: {
-    title: 'wutthelintAPI',
+    title: 'lint.ninja API',
     version: Pack.version,
   }
 }

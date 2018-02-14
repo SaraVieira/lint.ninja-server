@@ -35,8 +35,7 @@ const manifest = {
   ],
   registrations: [
     {
-      plugin: './api',
-      options: { routes: { prefix: '/api' } }
+      plugin: './api'
     },
     {
       plugin: {

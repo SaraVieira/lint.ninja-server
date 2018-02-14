@@ -168,6 +168,27 @@ module.exports = [
     "category": "eslint-config"
   },
   {
+    "name": "Local Rules",
+    "link": "https://github.com/cletusw/eslint-plugin-local-rules",
+    "description": "A plugin for ESLint that allows you to use project-specific rules",
+    "creator": "cletusw",
+    "category": "eslint-config"
+  },
+  {
+    "name": "Sorting",
+    "link": "https://github.com/jacobrask/eslint-plugin-sorting",
+    "description": "Sorting rules for eslint",
+    "creator": "jacobrask",
+    "category": "eslint-config"
+  },
+  {
+    "name": "Protractor",
+    "link": "https://github.com/alecxe/eslint-plugin-protractor",
+    "description": "ESLint rules for Protractor",
+    "creator": "alecxe",
+    "category": "eslint-config"
+  },
+  {
     "name": "Supermind",
     "link": "https://github.com/supermind/eslint-config-supermind",
     "description": "Shareable config for Supermind style",
@@ -203,10 +224,45 @@ module.exports = [
     "category": "eslint-plugin"
   },
   {
+    "name": "Typescript",
+    "link": "https://github.com/nzakas/eslint-plugin-typescript",
+    "description": "TypeScript plugin for ESLint",
+    "creator": "nzakas",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Prefer Object Spread",
+    "link": "https://github.com/bryanrsmith/eslint-plugin-prefer-object-spread",
+    "description": "ESLint rule for suggesting that object spread properties be used instead of Object.assign().",
+    "creator": "bryanrsmith",
+    "category": "eslint-plugin"
+  },
+  {
     "name": "Backbone",
     "link": "https://github.com/ilyavolodin/eslint-plugin-backbone",
     "description": "Linting rules for Backbone.",
     "creator": "ilyavolodin",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Format Message",
+    "link": "https://github.com/format-message/format-message",
+    "description": "Format-message i18n specific rules for ESLint",
+    "creator": "format-message",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "WordPress.com Calypso",
+    "link": "https://github.com/Automattic/eslint-plugin-wpcalypso",
+    "description": "Custom ESLint rules for the WordPress.com Calypso project",
+    "creator": "Automattic",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Path Exists",
+    "link": "https://github.com/BohdanTkachenko/eslint-plugin-require-path-exists",
+    "description": "Checks all require path's to exist as files",
+    "creator": "BohdanTkachenko",
     "category": "eslint-plugin"
   },
   {
@@ -245,6 +301,34 @@ module.exports = [
     "category": "eslint-plugin"
   },
   {
+    "name": "Sort Class Members",
+    "link": "https://github.com/bryanrsmith/eslint-plugin-sort-class-members",
+    "description": "ESLint rule for enforcing consistent ES6 class member order.",
+    "creator": "bryanrsmith",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "No Unsafe Inner HTML",
+    "link": "https://github.com/mozfreddyb/eslint-plugin-no-unsafe-innerhtml",
+    "description": "Custom ESLint rule to disallows unsafe innerHTML, outerHTML and insertAdjacentHTML",
+    "creator": "mozfreddyb",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Chai Friendly",
+    "link": "https://github.com/ihordiachenko/eslint-plugin-chai-friendly",
+    "description": "This plugin makes 'no-unused-expressions' rule friendly towards chai expect statements.",
+    "creator": "ihordiachenko",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "React Native Globals",
+    "link": "https://github.com/satya164/eslint-plugin-react-native-globals",
+    "description": "ESLint Environment for React Native",
+    "creator": "satya164",
+    "category": "eslint-plugin"
+  },
+  {
     "name": "Lodash",
     "link": "https://github.com/wix/eslint-plugin-lodash",
     "description": "Linting rules for Lodash",
@@ -263,6 +347,97 @@ module.exports = [
     "link": "https://github.com/dferber90/eslint-plugin-meteor",
     "description": "Linting rules for Meteor",
     "creator": "dferber90",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "CSS Modules",
+    "link": "https://github.com/atfzl/eslint-plugin-css-modules",
+    "description": "Checks that you are using the existent css/scss/less classes, no more no less",
+    "creator": "dferber90",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Dollar Sign",
+    "link": "https://github.com/erikdesjardins/eslint-plugin-dollar-sign",
+    "description": "Enforce $varName for jQuery assignment.",
+    "creator": "erikdesjardins",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "jQuery",
+    "link": "https://github.com/dgraham/eslint-plugin-jquery",
+    "description": "Disallow jQuery functions with native equivalents.",
+    "creator": "dgraham",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "ES5",
+    "link": "https://github.com/nkt/eslint-plugin-es5",
+    "description": "ESLint plugin for ES5 users.",
+    "creator": "nkt",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "i18n",
+    "link": "https://github.com/chejen/eslint-plugin-i18n",
+    "description": "Internationalization's linting rules for ESLint",
+    "creator": "chejen",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Spellcheck",
+    "link": "https://github.com/aotaduy/eslint-plugin-spellcheck",
+    "description": "ESLint rules to spell check js files",
+    "creator": "aotaduy",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "ES6 Import Autofix",
+    "link": "https://github.com/schuchertmanagementberatung/eslint-plugin-sort-imports-es6-autofix",
+    "description": "A sort-imports rule that properly distinguishes between ES6 import types.",
+    "creator": "schuchertmanagementberatung",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Disable",
+    "link": "https://github.com/mradionov/eslint-plugin-disable",
+    "description": "Disable ESLint plugins using file patterns and inline comments",
+    "creator": "mradionov",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Detox",
+    "link": "https://github.com/hammadj/eslint-plugin-detox",
+    "description": "ESLint environment for wix/detox",
+    "creator": "hammadj",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Ember Internal",
+    "link": "https://github.com/Turbo87/eslint-plugin-ember-internal",
+    "description": "Rules used internally by Ember.js",
+    "creator": "Turbo87",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Sentry",
+    "link": "https://github.com/getsentry/eslint-plugin-getsentry",
+    "description": "Custom ESLint rules for development on Sentry",
+    "creator": "getsentry",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "you-dont-need-lodash",
+    "link": "https://github.com/you-dont-need/You-Dont-Need-Lodash-Underscore",
+    "description": "Check methods you can use natively without lodash/underscore",
+    "creator": "you-dont-need",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "no-unused-vars-rest",
+    "link": "https://github.com/bryanrsmith/eslint-plugin-no-unused-vars-rest",
+    "description": "An enhanced version of the ESLint core rule no-unused-vars with allowances for experimental object rest properties.",
+    "creator": "bryanrsmith",
     "category": "eslint-plugin"
   },
   {
@@ -308,6 +483,20 @@ module.exports = [
     "category": "eslint-plugin"
   },
   {
+    "name": "Jest",
+    "link": "https://github.com/prettier/eslint-plugin-prettier",
+    "description": "Runs prettier as an eslint rule",
+    "creator": "prettier",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Babel",
+    "link": "https://github.com/jest-community/eslint-plugin-jest",
+    "description": "Eslint rules for Jest",
+    "creator": "jest-community",
+    "category": "eslint-plugin"
+  },
+  {
     "name": "Babel",
     "link": "https://github.com/babel/eslint-plugin-babel",
     "description": "Adds replacements for built-in rules to include Babel features",
@@ -319,6 +508,13 @@ module.exports = [
     "link": "https://github.com/amilajack/eslint-plugin-compat",
     "description": "Lint browser compatability of APIs used (caniuse as an ESLint plugin)",
     "creator": "amilajack",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Redux Saga",
+    "link": "https://github.com/pke/eslint-plugin-redux-saga",
+    "description": "Redux-saga eslint rules",
+    "creator": "pke",
     "category": "eslint-plugin"
   },
   {
@@ -385,6 +581,34 @@ module.exports = [
     "category": "eslint-plugin"
   },
   {
+    "name": "ScanJS",
+    "link": "https://github.com/mozfreddyb/eslint-plugin-scanjs-rules",
+    "description": "ESLint plugin that contains ScanJS rules",
+    "creator": "mozfreddyb",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "No only tests (Mocha)",
+    "link": "https://github.com/levibuzolic/eslint-plugin-no-only-tests",
+    "description": "ESLint rule for .only blocks in mocha tests",
+    "creator": "levibuzolic",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Prefer Let",
+    "link": "https://github.com/cowboyd/eslint-plugin-prefer-let",
+    "description": "Rule to prefer using let to bind names to values",
+    "creator": "cowboyd",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "EmberJS Best Practices",
+    "link": "https://github.com/ember-best-practices/eslint-plugin-ember-best-practices",
+    "description": "Eslint rules for linting for anti-patterns in Ember applications.",
+    "creator": "ember-best-practices",
+    "category": "eslint-plugin"
+  },
+  {
     "name": "Node",
     "link": "https://github.com/mysticatea/eslint-plugin-node",
     "description": "Linting rules for Node.js (checking importing paths, ES syntax, ...)",
@@ -448,6 +672,76 @@ module.exports = [
     "category": "eslint-plugin"
   },
   {
+    "name": "No Unsanitized",
+    "link": "https://github.com/mozilla/eslint-plugin-no-unsanitized",
+    "description": "ESLint rule to disallow unsanitized code",
+    "creator": "mozilla",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Ignore ERB",
+    "link": "https://github.com/ryanere/eslint-plugin-ignore-erb",
+    "description": "Ignore ERB expressions in ESLint",
+    "creator": "ryanere",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Cypress",
+    "link": "https://github.com/cypress-io/eslint-plugin-cypress",
+    "description": "An ESLint plugin for projects using Cypress",
+    "creator": "cypress-io",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Vue Libs",
+    "link": "https://github.com/vuejs/eslint-plugin-vue-libs",
+    "description": "Eslint plugin for vue.js projects",
+    "creator": "vuejs",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Header",
+    "link": "https://github.com/Stuk/eslint-plugin-header",
+    "description": "ESLint plugin to ensure that files begin with given comment",
+    "creator": "Stuk",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "JSX Control Statements",
+    "link": "https://github.com/vkbansal/eslint-plugin-jsx-control-statements",
+    "description": "JSX-control-statements specific linting rules for ESLint",
+    "creator": "vkbansal",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Brackets",
+    "link": "https://github.com/kentor/eslint-plugin-brackets",
+    "description": "ESLint style rules for minimizing diffs with line breaks around brackets",
+    "creator": "kentor",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Relay",
+    "link": "https://github.com/relayjs/eslint-plugin-relay",
+    "description": "ESLint plugin for Relay.",
+    "creator": "relayjs",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "Async/Await",
+    "link": "https://github.com/59naga/eslint-plugin-async-await",
+    "description": "Enforces spacing after async/await plugin",
+    "creator": "59naga",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "WebdriverIO",
+    "link": "https://gitlab.com/sebdeckers/eslint-plugin-webdriverio",
+    "description": "ESLint plugin with environment settings for WebdriverIO",
+    "creator": "sebdeckers",
+    "category": "eslint-plugin"
+  },
+  {
     "name": "JSX a11y",
     "link": "https://github.com/evcohen/eslint-plugin-jsx-a11y",
     "description": "Accessibility rules on JSX elements.",
@@ -492,7 +786,7 @@ module.exports = [
   {
     "name": "no-loops",
     "link": "https://github.com/buildo/eslint-plugin-no-loops",
-    "description": "It's 2017 and you still use loops?",
+    "description": "It's 2018 and you still use loops?",
     "creator": "buildo",
     "category": "eslint-plugin"
   },
@@ -508,6 +802,13 @@ module.exports = [
     "link": "https://github.com/xjamundx/eslint-plugin-promise",
     "description": "Best practices when working with promises.",
     "creator": "xjamundx",
+    "category": "eslint-plugin"
+  },
+  {
+    "name": "QUnit",
+    "link": "https://github.com/platinumazure/eslint-plugin-qunit",
+    "description": "ESLint plugin containing rules useful for QUnit tests.",
+    "creator": "platinumazure",
     "category": "eslint-plugin"
   },
   {
@@ -651,10 +952,17 @@ module.exports = [
     "category": "markdown"
   },
   {
+    name: "Write Good",
+    link: "https://github.com/btford/write-good",
+    description: "Naive linter for English prose for developers who can't write good and wanna learn to do other stuff good too.",
+    creator: "btford",
+    "category": "markdown"
+  },
+  {
     "name": "SQLint",
     "category": "SQL",
     "link": "https://github.com/purcell/sqlint",
     "description": "A simple command-line linter which reads your SQL files and reports any syntax errors or warnings it finds. Editor integrations with vim, emacs, and Sublime.",
-    "creator": "Steve Purcell and Kieran Trezona-le Comte"
+    "creator": "purcell"
   }
 ]

@@ -1,4 +1,4 @@
-# WhutTheLint API
+# Lint Ninja API
 
 Data source for: http://lint.ninja
 

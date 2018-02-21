@@ -2,13 +2,13 @@
 
 Data source for: http://lint.ninja
 
-Add your own linters at: https://github.com/SaraVieira/wuthelint-server/blob/master/data/data.js
+Add your own linters at: https://github.com/SaraVieira/lint.ninja-server/blob/master/data/data.js
 
 
 ## License
 The MIT License (MIT)
 
-Copyright (c) 2017 Sara Vieira
+Copyright (c) 2018 Sara Vieira
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

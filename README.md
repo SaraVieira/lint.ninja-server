@@ -1,6 +1,6 @@
 # WhutTheLint API
 
-Data source for: https://wutthelint.now.sh/
+Data source for: http:lint.ninja
 
 Add your own linters at: https://github.com/SaraVieira/wuthelint-server/blob/master/data/data.js
 

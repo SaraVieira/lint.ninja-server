@@ -840,6 +840,13 @@ module.exports = [
     "category": "eslint-plugin"
   },
   {
+    "name": "stylelint",
+    "link": "https://github.com/stylelint/stylelint",
+    "description": "A modern CSS linter that supports Sass, SugarSS and Less.",
+    "creator": "stylelint",
+    "category": "css"
+  },
+  {
     "name": "GitHub",
     "link": "https://github.com/primer/stylelint-config-primer",
     "description": "Sharable stylelint config used by GitHub's CSS",

@@ -964,5 +964,12 @@ module.exports = [
     "link": "https://github.com/purcell/sqlint",
     "description": "A simple command-line linter which reads your SQL files and reports any syntax errors or warnings it finds. Editor integrations with vim, emacs, and Sublime.",
     "creator": "purcell"
+  },
+  {
+    "name": "Shellcheck",
+    "category": "bash",
+    "link": "https://github.com/koalaman/shellcheck",
+    "description": "ShellCheck is a GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts.",
+    "creator": "koalaman"
   }
 ]

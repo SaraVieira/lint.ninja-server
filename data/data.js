@@ -966,7 +966,7 @@ module.exports = [
     "creator": "purcell"
   },
   {
-    "name": "Shellcheck",
+    "name": "ShellCheck",
     "category": "bash",
     "link": "https://github.com/koalaman/shellcheck",
     "description": "ShellCheck is a GPLv3 tool that gives warnings and suggestions for bash/sh shell scripts.",
